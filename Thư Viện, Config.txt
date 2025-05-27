@@ -7,10 +7,15 @@
     annotationProcessor("org.projectlombok:lombok:1.18.30")
     // jstl
     implementation("javax.servlet:jstl:1.2")
+    // mysql
+    implementation("mysql:mysql-connector-java:8.0.26")
     // common upload
     implementation("commons-fileupload:commons-fileupload:1.5")
     // cloudinary
     implementation("com.cloudinary:cloudinary-http44:1.31.0")
+	// validation
+    implementation group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
+    implementation group: 'org.hibernate', name: 'hibernate-validator', version: '6.1.0.Final'
 
 
 
